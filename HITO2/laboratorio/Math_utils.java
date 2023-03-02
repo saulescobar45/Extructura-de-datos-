@@ -24,5 +24,10 @@ public class Math_utils {
         }
     }
     public void getExtensionFromCI(String ci){}
-
+        System.out.println("Muestra extencion de la cedula");
+        String ext = "";
+        //9913271LP
+        ext = ci.substring(7);
+        //mostrando la extencion
+        System.out.println("Extencion ="+ext);
 }
