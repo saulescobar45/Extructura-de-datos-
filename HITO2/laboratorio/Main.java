@@ -10,6 +10,8 @@ public class Main {
     Math_utils math = new Math_utils("GOOAPP","0.1V",2023);
        math.printApp();
        math.generarNumerosN(10);
+        math.generarNumerosPares(20);
+       math.getExtensionFromCI("1234567CB");
 
         }
     }
