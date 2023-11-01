@@ -28,6 +28,33 @@ public class ListasNOdos {
         }
     }
 
+        public void insertaraelSegundo(){
+        Nodo nuevo = null;
+        Nodo aux = lista;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("\n DIgite dato a insertar: ");
+        int dato = scanner.nextInt();
+        nuevo = new Nodo(dato);
+        aux = aux.siguiente;
+        lista.siguiente= nuevo;
+        nuevo.siguiente= aux;
+
+    }
+public void insertae_elTercero(){
+    Nodo nuevo = null;
+    Nodo aux = lista;
+    Nodo aux1 = lista;
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("\n DIgite dato a insertar: ");
+    int dato = scanner.nextInt();
+    nuevo = new Nodo(dato);
+    aux = aux.siguiente;
+    aux1 = aux1.siguiente;
+    lista.siguiente= nuevo;
+    nuevo.siguiente= aux;
+
+
+}
     public void imprimirListas(){
         Nodo actual = lista;
         while(actual!=null){
